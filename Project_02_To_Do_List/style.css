@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #010e37;
+}
+
+.app-container {
+  max-width: 460px;
+  margin-inline: auto;
+  margin-top: 100px;
+  color: #fff;
+}
+
+.stack-content {
+  background-color: #0b1d51;
+  box-shadow: 0 0 1px 1px lightblue;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px;
+}
+
+.text-content {
+  flex: 1;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.quotes {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#progress-bar {
+  height: 12px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+#progress {
+  height: 12px;
+  width: 0;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #8ccdeb;
+}
+
+.stack {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #725cad;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* -------------------------------------------- */
+form {
+  max-width: 460px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+
+.taskInput {
+  height: 32px;
+  flex: 1;
+  color: #fff;
+  background-color: #0b1d51;
+  box-shadow: 0 0 1px 1px lightblue;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding-inline-start: 16px;
+  font-size: 20px;
+}
+
+.taskInput::placeholder {
+  color: rgba(148, 145, 145, 0.4);
+}
+
+.newTaskBtn {
+  height: 32px;
+  width: 56px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #725cad;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* all task  */
+.allTaskList {
+  margin-top: 36px;
+  margin-left: 10px;
+}
+
+.allTaskList li {
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.li-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.custom-checkBox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom-checkBox .clickImg {
+  display: none;
+}
+
+.completed .custom-checkBox .clickImg {
+  display: block;
+}
+
+
+.task-text {
+  width: 100%;
+  height: 24px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  flex: 1;
+  overflow: hidden;
+  border-radius: 8px;
+  padding-inline: 6px;
+  
+  /* background-color: #0b1d51; */
+}
+
+.deleteBtn i{
+  color: red;
+  font-size: 20pox;
+  cursor: pointer;
+}
+
+.completed .task-text  {
+  color: #fff;
+  text-decoration-line: line-through;
+}
