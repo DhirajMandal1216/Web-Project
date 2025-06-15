@@ -54,7 +54,7 @@ const updateTask = () => {
       listContent.classList.add("completed");
     }
 
-    check_box.addEventListener("click", (e) => {
+    customCheckBox.addEventListener("click", (e) => {
       listContent.classList.toggle("completed");
       allTasks[index].complete = !allTasks[index].complete;
       updateProgress();
