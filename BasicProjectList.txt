@@ -1,3 +1,5 @@
 Project 01 => Focus on Today as like Todo app           Tech Stack - HTML, CSS, Javascript(DOM manipulation)
 Project 02 => Todo app                                  Tech Stack - HTML, CSS, Javascript(DOM manipulation)
 Project 03 => Quiz App                                  Tech Stack - HTML, CSS, Javascript(DOM manipulation)
+Project 04 => Color Palette Generator                   Tech Stack - HTML, CSS, Javascript(DOM manipulation)
+Project 04 => Drag & Drop Board                         Tech Stack - HTML, CSS, Javascript(DOM manipulation)
