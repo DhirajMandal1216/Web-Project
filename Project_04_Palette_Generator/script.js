@@ -9,7 +9,7 @@ paletteContainer.addEventListener("click", function (e) {
 
     navigator.clipboard
       .writeText(hexValue)
-      .then(() => showCopySuccess(e.target.nextElementSibling.querySelector(".copy-btn")))
+      .then(() => showCopySuccess(e.target))
       .catch((err) => {
         console.log(err);
       });
